@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
 
 <img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="80" style="vertical-align:middle; margin-right:15px; border-radius:12px; border:2px solid #1f4e79; padding:5px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
 
