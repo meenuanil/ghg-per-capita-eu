@@ -7,19 +7,22 @@
 <!-- HERO / HEADER -->
 <!-- =============================== -->
 
+<!-- Hero Section: Logo + Title -->
+<p align="center">
+  <img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="100" style="vertical-align:middle;">
+  <span style="font-size:2em; color:#1f4e79; font-weight:bold; vertical-align:middle;"> Where Population Meets Carbon</span>
+</p>
+
+<p align="center" style="color:#2f75b5; font-size:1.2em;">Europe’s Leading Countries (2021)</p>
+<p align="center" style="color:#555555;">Advanced Cartography · Climate Data Visualization · GIS Analysis</p>
+
 <!-- Banner Wallpaper -->
-![Project Wallpaper](istockphoto-513386196-612x612.jpg)
-
-<!-- Logo -->
-<img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="120">
-
-<!-- Titles -->
-# Where Population Meets Carbon
-### Europe’s Leading Countries (2021)
-*Advanced Cartography · Climate Data Visualization · GIS Analysis*
+![Project Wallpaper](the-industrial-factory-pollution-with-ai-generated-free-photo.jpg)
 
 <!-- Webmap Link -->
-[🌐 View Webmap](https://meenuanil.github.io/ghg-per-capita-eu/)
+<p align="center">
+  <a href="https://meenuanil.github.io/ghg-per-capita-eu/" style="text-decoration:none; padding:10px 20px; background-color:#1f4e79; color:white; border-radius:6px;">🌐 View Webmap</a>
+</p>
 
 ---
 
