@@ -1,5 +1,5 @@
 # 🌍 EU GHG per Capita
-**This project is part of the Advanced Cartography course**
+**Advanced Cartography Course Project**
 
 ---
 
@@ -7,34 +7,30 @@
 <!-- HERO / HEADER -->
 <!-- =============================== -->
 
-<!-- Hero Section: Logo + Title -->
 <p align="center">
   <img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="100" style="vertical-align:middle;">
   <span style="font-size:2em; color:#1f4e79; font-weight:bold; vertical-align:middle;"> Where Population Meets Carbon</span>
 </p>
 
 <p align="center" style="color:#2f75b5; font-size:1.2em;">Europe’s Leading Countries (2021)</p>
-<p align="center" style="color:#555555;">Advanced Cartography · Climate Data Visualization · GIS Analysis</p>
+<p align="center" style="color:#555555;">Climate Data Visualization · GIS Analysis</p>
 
 <!-- Banner Wallpaper -->
-![Project Wallpaper](the-industrial-factory-pollution-with-ai-generated-free-photo.jpg)
-
-<!-- Webmap Link -->
 <p align="center">
-  <a href="https://meenuanil.github.io/ghg-per-capita-eu/" style="text-decoration:none; padding:10px 20px; background-color:#1f4e79; color:white; border-radius:6px;">🌐 View Webmap</a>
+  <img src="the-industrial-factory-pollution-with-ai-generated-free-photo.jpg" alt="Project Wallpaper" width="90%" style="border-radius:12px; border:2px solid #1f4e79;">
 </p>
 
 ---
 
-## Project Overview
+## 📌 Project Overview
 
-This project presents a **thematic choropleth map of greenhouse gas (GHG) emissions per capita across European countries**, combined with **proportional symbols representing the ten most populated European countries (2021)**.
+This project **analyzes and visualizes greenhouse gas (GHG) emissions per capita across European countries**, integrating **population data through proportional symbols** for the ten most populous nations (2021).  
 
-Developed for the **Advanced Cartography** course, the project explores the **spatial relationship between population size and per-capita carbon emissions**, applying advanced cartographic principles for clarity and academic rigor.
+Developed for the **Advanced Cartography** course, it demonstrates **rigorous cartographic design**, including **thematic choropleth mapping, data normalization, classification methods, and visual hierarchy**, providing clear insights into the **relationship between population size and per-capita carbon emissions** in Europe.
 
 ---
 
-## Objectives
+## 🎯 Objectives
 
 - Visualize **GHG emissions per capita** across Europe  
 - Highlight the **ten most populated European countries**  
@@ -44,7 +40,7 @@ Developed for the **Advanced Cartography** course, the project explores the **sp
 
 ---
 
-## Data Sources
+## 📊 Data Sources
 
 | Dataset | Source | Notes |
 |---------|--------|-------|
@@ -54,7 +50,7 @@ Developed for the **Advanced Cartography** course, the project explores the **sp
 
 ---
 
-## Methodology
+## 🛠 Methodology
 
 ### 1. Data Preparation
 - Processed datasets using **Microsoft Excel**  
@@ -72,7 +68,7 @@ Developed for the **Advanced Cartography** course, the project explores the **sp
 
 ---
 
-## Cartographic Design Principles
+## 📐 Cartographic Design Principles
 
 - Data normalized using **per capita indicators**  
 - Appropriate classification schemes for clarity  
@@ -82,18 +78,18 @@ Developed for the **Advanced Cartography** course, the project explores the **sp
 
 ---
 
-## Languages & Libraries
+## 💻 Languages & Libraries
 
 | Language / Library | Purpose |
 |-------------------|---------|
 | HTML              | Structure and layout of the webmap page |
 | CSS               | Styling and responsive design |
 | JavaScript        | Interactivity and dynamic map features |
-| Leaflet.js        | Creating the interactive choropleth webmap and adding proportional symbols |
+| Leaflet.js        | Interactive choropleth mapping with proportional symbols |
 
 ---
 
-## Tools & Software Used
+## 🛠 Tools & Software Used
 
 | Software | Purpose |
 |----------|---------|
@@ -103,19 +99,15 @@ Developed for the **Advanced Cartography** course, the project explores the **sp
 
 ---
 
-## Map Output
+## 🗺 Map Output
 
-![Choropleth Map](Layout1.jpg)
-
----
-
-## Access the Project
-
-[🌐 View Webmap](https://meenuanil.github.io/ghg-per-capita-eu/)
+<p align="center">
+  <img src="Layout1.jpg" alt="Choropleth Map" width="90%" style="border-radius:8px; border:2px solid #1f4e79;">
+</p>
 
 ---
 
-## Authorship
+## ✍ Authorship
 
 **Map Author:** Meenu Anil  
 Master’s in Geospatial Analytics  
@@ -123,7 +115,7 @@ Advanced Cartography
 
 ---
 
-## License
+## 📄 License
 
 This project is intended for **academic and educational purposes only**.  
 All data sources retain their original licenses.
