@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Pop_Symbol",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME_ENGL": "Belgium", "ISO3_CODE": "BEL", "EU_Countri": "13.2.2", "EU_Count_2": "56", "EU_Count_4": "2021", "Population": 11586195 }, "geometry": { "type": "Point", "coordinates": [ 4.668231557240584, 50.63882241144551 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "Germany", "ISO3_CODE": "DEU", "EU_Countri": "13.2.2", "EU_Count_2": "276", "EU_Count_4": "2021", "Population": 83196078 }, "geometry": { "type": "Point", "coordinates": [ 10.371110308617096, 51.049229379923098 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "France", "ISO3_CODE": "FRA", "EU_Countri": "13.2.2", "EU_Count_2": "250", "EU_Count_4": "2021", "Population": 67842811 }, "geometry": { "type": "Point", "coordinates": [ -7.355381433120104, 42.864981990142759 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "Greece", "ISO3_CODE": "GRC", "EU_Countri": "13.2.2", "EU_Count_2": "300", "EU_Count_4": "2021", "Population": 10569207 }, "geometry": { "type": "Point", "coordinates": [ 22.992073330020148, 39.014695700806541 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "Spain", "ISO3_CODE": "ESP", "EU_Countri": "13.2.2", "EU_Count_2": "724", "EU_Count_4": "2021", "Population": 47443821 }, "geometry": { "type": "Point", "coordinates": [ -3.692998407849927, 40.198228659600822 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "Italy", "ISO3_CODE": "ITA", "EU_Countri": "13.2.2", "EU_Count_2": "380", "EU_Count_4": "2021", "Population": 59133173 }, "geometry": { "type": "Point", "coordinates": [ 12.203172334093434, 42.719418863371189 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "Netherlands", "ISO3_CODE": "NLD", "EU_Countri": "13.2.2", "EU_Count_2": "528", "EU_Count_4": "2021", "Population": 17533044 }, "geometry": { "type": "Point", "coordinates": [ 5.588013301271736, 52.261733608912998 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "Poland", "ISO3_CODE": "POL", "EU_Countri": "13.2.2", "EU_Count_2": "616", "EU_Count_4": "2021", "Population": 36981559 }, "geometry": { "type": "Point", "coordinates": [ 19.425915564198078, 52.110724642539623 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "Romania", "ISO3_CODE": "ROU", "EU_Countri": "13.2.2", "EU_Count_2": "642", "EU_Count_4": "2021", "Population": 19122059 }, "geometry": { "type": "Point", "coordinates": [ 24.993916025574045, 45.837897021011941 ] } },
+{ "type": "Feature", "properties": { "NAME_ENGL": "United Kingdom", "ISO3_CODE": "GBR", "EU_Countri": "13.2.2", "EU_Count_2": "826", "EU_Count_4": "2021", "Population": 66984000 }, "geometry": { "type": "Point", "coordinates": [ -2.78356491735163, 54.05624090995299 ] } }
+]
+}

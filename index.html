@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Where Population Meets Carbon: Europe’s Leading Countries, 2021</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        crossorigin="">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+  </style>
+
+</head>
+<body>
+
+<div class="map-hero-title">
+  <img src="E Inverted Icons_WEB-13.png" class="hero-logo">
+  <div class="hero-text">
+    <div class="hero-title">Where Population Meets Carbon</div>
+    <div class="hero-subtitle">Europe’s Leading Countries, 2021</div>
+  </div>
+</div>
+
+<div class="map-title-container">
+  <div class="map-description">
+    Europe’s per capita greenhouse gas emissions (GHG) in 2021 (tCO₂-e) are represented using a color gradient, with darker shades indicating higher emissions. The ten most populous countries are shown with proportional symbols, where larger symbols correspond to larger populations.
+  </div>
+</div>
+
+<div class="pop-info-legend">
+  <span class="legend-pop-circle sym3"></span>
+  <span class="pop-info-text">Population symbols identify Europe’s ten most populous countries.</span>
+</div>
+
+<div class="legend-container">
+  <div class="legend-section">
+    <div class="legend-subtitle">GHG per Capita (tCO₂e/person)</div>
+    <div class="legend-item"><span class="box box1"></span> ≤ 5.4</div>
+    <div class="legend-item"><span class="box box2"></span> 5.4–7.7</div>
+    <div class="legend-item"><span class="box box3"></span> 7.7–9.9</div>
+    <div class="legend-item"><span class="box box4"></span> 9.9–12.1</div>
+    <div class="legend-item"><span class="box box5"></span> > 12.1</div>
+  </div>
+
+  <div class="legend-section">
+    <div class="legend-subtitle">Top 10 Populated Countries</div>
+
+    <div class="legend-item">
+      <span class="legend-pop-circle sym1"></span>10.6–11.6 M
+    </div>
+
+    <div class="legend-item">
+      <span class="legend-pop-circle sym2"></span>11.6–19.1 M
+    </div>
+
+    <div class="legend-item">
+      <span class="legend-pop-circle sym3"></span>19.1–47.4 M
+    </div>
+
+    <div class="legend-item">
+      <span class="legend-pop-circle sym4"></span>47.4–67.0 M
+    </div>
+
+    <div class="legend-item">
+      <span class="legend-pop-circle sym5"></span>67.0–83.2 M
+    </div>
+  </div>
+</div>
+
+<div id="lux-callout" class="callout-box">
+  <div class="callout-title">Luxembourg</div>
+  <div class="callout-row">
+    Luxembourg recorded one of the highest per-capita GHG emissions in the EU in 2021 (14.67 tCO₂e/person), despite relatively low total emissions (9.39 Mt CO₂e) due to its small population.
+  </div>
+</div>
+
+<div id="chart-panel">
+  <h3 id="chart-title">Europe CO₂ Emissions (2021)</h3>
+  <canvas id="ghgChart"></canvas>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

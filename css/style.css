@@ -1,0 +1,408 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.country-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1a202c;
+  text-shadow: 0 0 3px white;
+  white-space: nowrap;
+}
+
+/* HERO TITLE SECTION */
+/* ================================
+   SDG‑13 THEME — TITLE + SUBTITLE
+   ================================ */
+
+/* ================================
+   HERO TITLE PANEL — CLEAN VERSION
+   ================================ */
+
+/* ================================
+   HERO TITLE BOX — ACADEMIC SDG 13 STYLE
+   ================================ */
+.map-hero-title {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  z-index: 10000;
+
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  padding: 18px 24px;
+  border-radius: 12px;
+
+  /* formal panel color — soft muted green */
+  background: rgba(230, 245, 235, 0.95);
+  border: 1.5px solid rgba(46, 125, 50, 0.4);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Logo */
+.hero-logo {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Text container */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* MAIN TITLE */
+.hero-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1B5E20; /* formal deep green */
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+/* SUBTITLE */
+.hero-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #33691E; /* slightly lighter green */
+  margin: 0;
+}
+
+/* ================================
+   MAP DESCRIPTION BOX — ACADEMIC SDG 13
+   ================================ */
+/* ================================
+   MAP DESCRIPTION BOX — ACADEMIC SDG 13
+   ================================ */
+.map-title-container {
+  position: absolute;
+  top: 220px; /* moved up from 250px */
+  left: 30px;
+  z-index: 10000;
+
+  max-width: 380px;
+  padding: 18px 20px;
+  border-radius: 12px;
+
+  /* formal muted panel with subtle transparency */
+  background: rgba(245, 250, 245, 0.90);
+  border: 1.5px solid rgba(46, 125, 50, 0.35);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+
+  font-family: "Montserrat", sans-serif;
+}
+
+/* top accent line — SDG 13 formal green */
+.map-title-container::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #2E7D32; /* solid deep green */
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+/* description text */
+.map-description {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #1B5E20; /* deep green */
+  margin: 0;
+  letter-spacing: 0.25px;
+}
+
+/* ================================
+   RESPONSIVE ADJUSTMENTS
+   ================================ */
+@media screen and (max-width: 768px) {
+  .map-title-container {
+    top: 200px; /* slightly higher on smaller screens */
+    max-width: 90%;
+    padding: 14px 16px;
+  }
+
+  .map-title-container::before {
+    width: 40px;
+  }
+}
+
+/* ACADEMIC LEGEND BOX */
+.legend-container {
+  position: absolute;
+  top: 210px;
+  right: 20px;
+
+  /* GHG-themed gradient: smoky green to muted blue */
+  background: linear-gradient(145deg, rgba(70, 130, 70, 0.4), rgba(135, 206, 235, 0.25));
+  backdrop-filter: blur(12px) saturate(1.1);
+  -webkit-backdrop-filter: blur(12px) saturate(1.1);
+
+  padding: 22px 24px;
+  border-radius: 18px;
+
+  /* Dark green border for structure */
+  border: 2px solid rgba(34, 85, 34, 0.8);
+
+  /* Soft shadow for depth */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+
+  z-index: 9999;
+
+  font-size: 13px;
+  line-height: 1.45;
+  width: 270px;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.legend-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.32);
+
+  /* Slightly brighter gradient on hover */
+  background: linear-gradient(145deg, rgba(85, 155, 85, 0.55), rgba(175, 230, 250, 0.35));
+}
+
+.legend-section {
+  margin-bottom: 14px;
+}
+
+.legend-subtitle {
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #1f3a5f;
+  font-size: 13.5px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  padding-bottom: 3px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  gap: 8px;
+  color: #2b2b2b;
+}
+
+.box {
+  width: 18px;
+  height: 12px;
+  margin-right: 8px;
+  border: 1px solid #333;
+
+  /* center contents */
+  display: flex;
+  align-items: center;    /* vertical center */
+  justify-content: center; /* horizontal center */
+  text-align: center;     /* for any text inside */
+}
+
+
+.box1 { background: #F0F9E8; }
+.box2 { background: #BAE4BC; }
+.box3 { background: #7BCCC4; }
+.box4 { background: #43A2CA; }
+.box5 { background: #0868AC; }
+
+/* OLD PNG SYMBOL SIZES (kept but unused) */
+.sym1 { width: 8px; height: 8px; }
+.sym2 { width: 12px; height: 12px; }
+.sym3 { width: 16px; height: 16px; }
+.sym4 { width: 20px; height: 20px; }
+.sym5 { width: 24px; height: 24px; }
+
+.legend-symbol {
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+/* NEW POPULATION CENTROID LEGEND CIRCLES */
+.legend-pop-circle {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #3F7E44;
+  border: 1px solid #3F7E44;
+  margin-right: 6px;
+}
+
+.sym1 { width: 10px; height: 10px; }
+.sym2 { width: 14px; height: 14px; }
+.sym3 { width: 18px; height: 18px; }
+.sym4 { width: 22px; height: 22px; }
+.sym5 { width: 26px; height: 26px; }
+
+/* POPULATION INFO LEGEND */
+/* POPULATION INFO LEGEND - Alternative Style */
+.pop-info-legend {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px; /* smaller, compact padding */
+  
+  /* Darker translucent background for contrast */
+  background: rgba(8, 104, 172, 0.2);
+  backdrop-filter: blur(6px) saturate(1.1);
+  -webkit-backdrop-filter: blur(6px) saturate(1.1);
+
+  border-radius: 14px;
+
+  /* subtle green-blue border to match GHG theme */
+  border: 1px solid rgba(8, 104, 172, 0.6);
+
+  /* lighter shadow */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 12.5px; /* slightly smaller font */
+  color: #0f2a40;
+
+  z-index: 9999;
+  transition: all 0.2s ease-in-out;
+}
+
+.pop-info-legend:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.22);
+}
+
+.pop-info-symbol {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.25));
+}
+
+.pop-info-text {
+  line-height: 1.3;
+  font-weight: 500;
+  max-width: 180px;
+}
+
+/* Callout Luxembourg */
+/* LUXEMBOURG CALLOUT - COMPACT VERSION */
+.callout-box {
+  position: absolute;
+  top: 55%;
+  right: 25%;
+  transform: translate(0, -50%);
+  width: 160px;             /* smaller width */
+  padding: 8px 12px;        /* reduced padding */
+  background: rgba(4, 75, 130, 0.18); /* subtle GHG-blue theme */
+  backdrop-filter: blur(6px) saturate(1.05);
+  -webkit-backdrop-filter: blur(6px) saturate(1.05);
+  border-radius: 20px;      /* slightly smaller radius */
+  border: 1px solid rgba(4, 75, 130, 0.45);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  font-family: "Segoe UI", sans-serif;
+  transition: all 0.25s ease-in-out;
+}
+
+.callout-box:hover {
+  transform: translate(0, -50%) scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.callout-title {
+  font-size: 12px;         /* smaller title text */
+  font-weight: 700;
+  color: #43A2CA;           /* GHG-themed blue */
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.callout-row {
+  font-size: 10px;         /* smaller row text */
+  line-height: 1.3;
+  color: #1f1f1f;
+  text-align: center;
+  margin: 2px 0;
+}
+
+.popup-close {
+  text-align: right;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 6px;
+  color: #2A5C6A;
+}
+
+.country-label {
+  background: transparent;
+  border: none;
+  pointer-events: none;
+  text-align: center;
+}
+
+/* CHART PANEL STYLING - ALTERNATIVE */
+#chart-panel {
+  position: absolute;
+  top: 430px;
+  left: 30px;
+  width: 300px;
+  height: 240px;
+  padding: 12px 16px;
+
+  /* Darker, semi-transparent GHG theme */
+  background: rgba(4, 75, 130, 0.18);
+  backdrop-filter: blur(10px) saturate(1.2);
+  -webkit-backdrop-filter: blur(10px) saturate(1.2);
+
+  border-radius: 16px;
+
+  /* stronger border for contrast */
+  border: 1px solid rgba(4, 75, 130, 0.45);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  z-index: 500;
+
+  /* smooth transition for hover effects */
+  transition: all 0.3s ease-in-out;
+}
+
+#chart-panel:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+#chart-panel h3 {
+  margin-top: 0;
+  font-size: 15px;
+  color: #43A2CA; /* lighter GHG blue for contrast */
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.country-label {
+  position: relative;
+  z-index: 9999 !important;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 0 3px #fff;
+}
+
+.leaflet-marker-icon {
+  z-index: 9998 !important;
+  position: relative;
+}
