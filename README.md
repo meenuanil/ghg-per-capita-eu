@@ -1,17 +1,16 @@
-
 # 🌍 EU GHG per Capita
 <p align="center" style="font-size:1.3em; color:#2f75b5; margin-top:-10px;">
 Advanced Cartography Course Project
 </p>
 
-<!-- Logo + Title inside bordered panel -->
+<!-- Logo + Project Title inside a bordered panel -->
 <p align="center" style="border:2px solid #1f4e79; border-radius:12px; padding:20px; display:inline-block; background-color:#f0f4f8;">
   <img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="80" style="vertical-align:middle; margin-right:15px;">
   <span style="font-size:1.8em; font-weight:bold; color:#1f4e79; vertical-align:middle;">Where Population Meets Carbon</span>
 </p>
 
 <!-- Subtitle -->
-<p align="center" style="color:#1f4e79; font-size:1.2em; font-weight:600; margin-top:10px;">
+<p align="center" style="color:#1f4e79; font-size:1.3em; font-weight:600; margin-top:15px;">
 Europe’s Leading Countries (2021)
 </p>
 
@@ -19,13 +18,6 @@ Europe’s Leading Countries (2021)
 <p align="center" style="color:#555555; font-size:1em; margin-top:-5px;">
 Climate Data Visualization · GIS Analysis
 </p>
-
-<!-- Banner Wallpaper -->
-<p align="center" style="margin-top:25px;">
-  <img src="the-industrial-factory-pollution-with-ai-generated-free-photo.jpg" alt="Project Wallpaper" width="90%" style="border-radius:12px; border:2px solid #1f4e79; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-</p>
-
----
 
 <!-- Banner Wallpaper -->
 <p align="center" style="margin-top:25px;">
@@ -114,7 +106,7 @@ Developed for the **Advanced Cartography** course, it demonstrates **rigorous ca
 ## 🗺 Map Output
 
 <p align="center">
-  <img src="Layout1.jpg" alt="Choropleth Map" width="90%" style="border-radius:8px; border:2px solid #1f4e79;">
+  <img src="Layout1.jpg" alt="Choropleth Map" width="90%" style="border-radius:8px; border:2px solid #1f4e79; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
 ---
