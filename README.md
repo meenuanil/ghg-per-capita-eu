@@ -1,20 +1,31 @@
 
 # 🌍 EU GHG per Capita
-**Advanced Cartography Course Project**
-
-<!-- =============================== -->
-<!-- HERO / HEADER -->
-<!-- =============================== -->
-
-<p align="center" style="margin-bottom:20px;">
-  <!-- Logo next to title -->
-  <img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="100" style="vertical-align:middle; margin-right:15px;">
-  <span style="font-size:2.2em; font-weight:bold; color:#1f4e79; vertical-align:middle;">Where Population Meets Carbon</span>
+<p align="center" style="font-size:1.3em; color:#2f75b5; margin-top:-10px;">
+Advanced Cartography Course Project
 </p>
 
-<p align="center" style="color:#2f75b5; font-size:1.2em; font-weight:500; margin-top:-10px;">
-Europe’s Leading Countries (2021) · Climate Data Visualization · GIS Analysis
+<!-- Logo + Title inside bordered panel -->
+<p align="center" style="border:2px solid #1f4e79; border-radius:12px; padding:20px; display:inline-block; background-color:#f0f4f8;">
+  <img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="80" style="vertical-align:middle; margin-right:15px;">
+  <span style="font-size:1.8em; font-weight:bold; color:#1f4e79; vertical-align:middle;">Where Population Meets Carbon</span>
 </p>
+
+<!-- Subtitle -->
+<p align="center" style="color:#1f4e79; font-size:1.2em; font-weight:600; margin-top:10px;">
+Europe’s Leading Countries (2021)
+</p>
+
+<!-- Secondary Info -->
+<p align="center" style="color:#555555; font-size:1em; margin-top:-5px;">
+Climate Data Visualization · GIS Analysis
+</p>
+
+<!-- Banner Wallpaper -->
+<p align="center" style="margin-top:25px;">
+  <img src="the-industrial-factory-pollution-with-ai-generated-free-photo.jpg" alt="Project Wallpaper" width="90%" style="border-radius:12px; border:2px solid #1f4e79; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+</p>
+
+---
 
 <!-- Banner Wallpaper -->
 <p align="center" style="margin-top:25px;">
