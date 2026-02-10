@@ -3,19 +3,23 @@
 Advanced Cartography Course Project
 </p>
 
-<!-- Logo + Project Title inside a bordered panel -->
-<p align="center" style="border:2px solid #1f4e79; border-radius:12px; padding:20px; display:inline-block; background-color:#f0f4f8;">
-  <img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="80" style="vertical-align:middle; margin-right:15px;">
-  <span style="font-size:1.8em; font-weight:bold; color:#1f4e79; vertical-align:middle;">Where Population Meets Carbon</span>
+<!-- Logo above title -->
+<p align="center" style="margin-top:20px;">
+  <img src="E Inverted Icons_WEB-13.png" alt="Project Logo" width="100" style="border-radius:12px; border:2px solid #1f4e79; padding:5px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+</p>
+
+<!-- Main Title -->
+<p align="center" style="font-size:2.5em; font-weight:bold; color:#1f4e79; margin-top:15px;">
+Where Population Meets Carbon
 </p>
 
 <!-- Subtitle -->
-<p align="center" style="color:#1f4e79; font-size:1.3em; font-weight:600; margin-top:15px;">
+<p align="center" style="font-size:1.6em; font-weight:600; color:#2f75b5; margin-top:5px;">
 Europe’s Leading Countries (2021)
 </p>
 
 <!-- Secondary Info -->
-<p align="center" style="color:#555555; font-size:1em; margin-top:-5px;">
+<p align="center" style="color:#555555; font-size:1em; margin-top:5px;">
 Climate Data Visualization · GIS Analysis
 </p>
 
